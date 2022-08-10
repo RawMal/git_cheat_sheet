@@ -8,17 +8,36 @@ BASIC TERMINAL NAVIGATION
 
 ◎ ls → This lists whatever folder or file resides in your current location
 
-◎ ls 'directory name' → lists whatever folder or file resides in specific directory
+◎ ls 'directory_name' → lists whatever folder or file resides in specific directory
 
 ◎ ls -l → This gives you extra information of the current contents of your location also known as a flag
 
 ◎ man ls → This gives you a directory of flags you can use to help navigate through your directories on Terminal
 
-◎ cd 'directory name' or cd Documents/directory_name→ Navigate into desired directory
+◎ cd 'directory_name' or cd Documents/directory_name→ Navigate into desired directory
 
 ◎ cd → Takes you back to the beginning of the file tree
 
 ◎ cd .. → Allows you to go back to previous directory, if you would like to go back further use 'cd …' etc.
 
-◎ →
+
+BASIC TERMINAL FILE MANIPULATION
+
+◎ mkdir 'directory_name' → Create a new directory at current location
+
+◎ touch 'file_name'.txt → Create a file at current location
+
+◎ open 'file_name'.txt → Opens file for you to view/use
+
+◎ rm -r  'directory_name' → Permanently delete specific directory
+
+◎ rm  'file_name'.txt → Permanently delete specific file
+
+◎ mv 'file_name'.txt 'directory_name'  → Move file to a specific directory
+
+◎ mv 'file_name'.txt .. → Moves file up a directory (use more < . > to move up more directories)
+
+◎ mv 'file_name'.txt 'file_name01'.txt → Renames specific file
+
+◎ cp 'file_name'.txt 'directory_name' → Makes a copy of mentioned file to a specific directory
  
