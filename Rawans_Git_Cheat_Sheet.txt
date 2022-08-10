@@ -65,13 +65,18 @@ CREATING A VERSION CONTROL SYSTEM - GIT
 ◎ git rebase ab12345 → This will undo and completely remove the specified commit and every commit after it from the history
 
 
-UPLOADING REPOSITORY TO GITHUB ◎ →
+UPLOADING REPOSITORY TO GITHUB 
 
 ◎ git remote add origin 'githuburl.git' → This links the local git repository to the GitHub account (make sure to copy in the SSH link from the GitHub repositry)
 
 ◎ git push origin main → This uploads the code to GITHUB
 
 
+DOWNLOADING REPOSITORY FROM GITHUB 
+
+◎ git clone 'desiredrepository/githuburl.git' → This clones a repository from GitHub. NOTE: MAKE SURE YOU HAVE 'cd' TO BEGINNING OF FILE TREE AND YOU ARE NOT CLONING IT ONTO ANOTHER REPOSITORY
+
+◎ git pull origin main → This downloads any changes made by the author or anyone else using the repository
 
 
  
