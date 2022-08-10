@@ -1,1 +1,24 @@
 DAY 1 - GIT CHEAT SHEET
+
+BASIC TERMINAL NAVIGATION
+
+◎ pwd → This allows you to find location of current file path 
+
+◎ clear → This declutters your terminal window and allows you to have a cleaner work space
+
+◎ ls → This lists whatever folder or file resides in your current location
+
+◎ ls 'directory name' → lists whatever folder or file resides in specific directory
+
+◎ ls -l → This gives you extra information of the current contents of your location also known as a flag
+
+◎ man ls → This gives you a directory of flags you can use to help navigate through your directories on Terminal
+
+◎ cd 'directory name' or cd Documents/directory_name→ Navigate into desired directory
+
+◎ cd → Takes you back to the beginning of the file tree
+
+◎ cd .. → Allows you to go back to previous directory, if you would like to go back further use 'cd …' etc.
+
+◎ →
+ 
