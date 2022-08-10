@@ -1,4 +1,5 @@
-DAY 1 - GIT CHEAT SHEET
+GIT CHEAT SHEET
+Week1/Day 1 of the BN Bootcamp we were asked to create a cheat sheet for using terminal/GIT, uploading and downloading code to GitHub
 
 BASIC TERMINAL NAVIGATION
 
