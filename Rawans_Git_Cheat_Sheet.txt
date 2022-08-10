@@ -40,4 +40,32 @@ BASIC TERMINAL FILE MANIPULATION
 ◎ mv 'file_name'.txt 'file_name01'.txt → Renames specific file
 
 ◎ cp 'file_name'.txt 'directory_name' → Makes a copy of mentioned file to a specific directory
+
+
+CREATING A VERSION CONTROL SYSTEM - GIT 
+
+◎ git init → Create a repository (history) *FIRST STEP DO NOT MISS*
+
+◎ ls -a → Allows you to check if there is a new git directory created; directory will end with '.git'
+
+◎ git status → Allows you to view a brief summary of what has been modified or added/tracked in git directory
+
+◎ git add 'file_name'.txt → Track a specific file
+
+◎ git add . → Stages all changes in the current directory (make sure to use this before commit)
+
+◎ git commit -m "current level working on file" → Creates a record of the current stage of the file that you are working on so you can track back later to it if required. Allows you to add description of current stage between the " "
+
+◎ git log → Shows you a detailed list of commits made so far (good for checking which stage to track back to or what commits have been made so far)
+
+◎ git revert ab12345 → This will undo a specified commit (use 'git log' to get first seven characters of the commit's ID to specify on this command) NOTE: This will only undo the specified commit and not every commit after it so any code reliant on the code inside this commit will not function.
+
+◎ git reset ab12345 → This will undo the specified commit and every commit created after it 
+
+◎ git rebase ab12345 → This will undo and completely remove the specified commit and every commit after it from the history
+
+
+
+
+
  
