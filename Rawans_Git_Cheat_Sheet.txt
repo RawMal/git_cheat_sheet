@@ -65,6 +65,12 @@ CREATING A VERSION CONTROL SYSTEM - GIT
 ◎ git rebase ab12345 → This will undo and completely remove the specified commit and every commit after it from the history
 
 
+UPLOADING REPOSITORY TO GITHUB ◎ →
+
+◎ git remote add origin 'githuburl.git' → This links the local git repository to the GitHub account (make sure to copy in the SSH link from the GitHub repositry)
+
+◎ git push origin main → This uploads the code to GITHUB
+
 
 
 
